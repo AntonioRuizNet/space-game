@@ -72,6 +72,7 @@ To get a local copy up and running follow these simple example steps.
 - [ ] Worlds
 - [ ] Ships
 - [ ] Explore space
+- [ ] Language
   - [ ] English
   - [x] Spanish
 - [ ] Shop
