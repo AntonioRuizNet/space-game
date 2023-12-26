@@ -1,5 +1,6 @@
 {
   "name": "spacegame",
+  "homepage": "https://antonioruiz.net/apps/space-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

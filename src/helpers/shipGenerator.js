@@ -1,5 +1,5 @@
 export const ship = {
-  icon: "http://localhost:3010/images/naves/1.jpeg",
+  icon: "images/naves/1.jpeg",
   name: "Cazador Estelar Aether",
   combustible: 0,
   almacenaje: [],
@@ -12,7 +12,7 @@ export const newShip = () => {
   const idImage = getRandomInt(1, idMaxImage);
 
   const planet = {
-    icon: `http://localhost:3010/images/naves/${idImage}.jpeg`,
+    icon: `images/naves/${idImage}.jpeg`,
     name: generateShipName(),
     combustible: getRandomInt(1, 100),
     almacenaje: getRandomInt(1, 100),

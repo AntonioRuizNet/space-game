@@ -1,6 +1,6 @@
 export const universe = {
-  background: "http://localhost:3010/images/backgrounds/universe.jpeg",
-  icon: "http://localhost:3010/images/backgrounds/universe.jpeg",
+  background: "images/backgrounds/universe.jpeg",
+  icon: "images/backgrounds/universe.jpeg",
   name: "Espacio",
   temperatura: 0,
   gravedad: 0,
@@ -9,8 +9,8 @@ export const universe = {
 };
 
 export const baseWorld = {
-  background: "http://localhost:3010/images/hangares/hangar4.jpeg",
-  icon: "http://localhost:3010/images/hangares/hangar4.jpeg",
+  background: "images/hangares/hangar4.jpeg",
+  icon: "images/hangares/hangar4.jpeg",
   name: "Estación Espacial",
   temperatura: 14,
   gravedad: 10,
@@ -23,8 +23,8 @@ export const newWorld = () => {
   const idImage = getRandomInt(1, idMaxImage);
 
   const planet = {
-    background: `http://localhost:3010/images/backgrounds/${idImage}.jpeg`,
-    icon: `http://localhost:3010/images/worlds/${idImage}.jpeg`,
+    background: `images/backgrounds/${idImage}.jpeg`,
+    icon: `images/worlds/${idImage}.jpeg`,
     name: generatePlanetName(),
     temperatura: getRandomInt(1, 100),
     gravedad: getRandomInt(1, 30),

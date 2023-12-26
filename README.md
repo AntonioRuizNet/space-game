@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/preview.jpg" alt="Logo" width="80" height="80">
+    <img src="https://antonioruiz.net/apps/space-game/images/preview.jpg" alt="Logo" width="80" height="80">
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -34,7 +34,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[https://antonioruiz.net/apps/space-game/](https://antonioruiz.net/apps/space-game/)
 
 A web browser space game
 

@@ -4,7 +4,7 @@ const initialState = {
   userConfig: { logged: false, logs: [] },
   mode: "rest",
   ship: {
-    icon: "http://localhost:3010/images/naves/1.jpeg",
+    icon: "images/naves/1.jpeg",
     name: "Cazador Estelar Aether",
     combustible: 0,
     almacenaje: [],
@@ -14,8 +14,8 @@ const initialState = {
     experiencia: 0,
   },
   ubication: {
-    background: "http://localhost:3010/images/hangares/hangar4.jpeg",
-    icon: "http://localhost:3010/images/hangares/hangar4.jpeg",
+    background: "images/hangares/hangar4.jpeg",
+    icon: "images/hangares/hangar4.jpeg",
     name: "Estación Espacial",
     temperatura: 14,
     gravedad: 10,
