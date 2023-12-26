@@ -1,0 +1,10 @@
+.progressBar{
+    height: 10px;
+}
+
+.container-progress-bar{
+    height: 10px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}

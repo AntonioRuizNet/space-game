@@ -1,0 +1,16 @@
+.actionsShip{
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.actionsShip svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.active{
+    animation: flash infinite 5s linear;
+    color: #008bff;
+}
+

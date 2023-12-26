@@ -1,0 +1,8 @@
+.panel{
+    margin: 2px;
+    background-color: #151515c4;
+    border: 1px #e0e0e06b solid;
+    border-radius: 5px;
+    position: absolute;
+}
+

@@ -1,0 +1,8 @@
+.background-nave{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    height: 179px;
+    border: 1px rgb(84, 83, 83) solid;
+}
