@@ -8,7 +8,7 @@ export const Inventario = () => {
     <div className="p-2 flex100 wrap scroll-y">
       {almacenaje.map((item) => {
         return (
-          <div className="itemInventory" style={{ backgroundImage: "url(" + item.icon + ")" }}>
+          <div className="itemInventory" style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + item.icon + ")" }}>
             <div className="itemInventoryQuantity text-white font-09">
               <label>{item.quantity}</label>
             </div>

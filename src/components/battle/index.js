@@ -112,7 +112,7 @@ export const Battle = ({ opponent, setOpponent }) => {
     <div className="w-100 p-3">
       <div className="flex100">
         <div className="w-50">
-          <img alt={userConfig.ship.name} src={userConfig.ship.icon} width="200px" />
+          <img alt={userConfig.ship.name} src={process.env.PUBLIC_URL + "/" + userConfig.ship.icon} width="200px" />
           <div className="text-white" style={{ paddingRight: "4%" }}>
             <div className="font-bold">{userConfig.ship.name}</div>
             <div>
@@ -124,7 +124,7 @@ export const Battle = ({ opponent, setOpponent }) => {
           </div>
         </div>
         <div className="w-50 right">
-          <img alt={opponentStats.name} src={opponentStats.icon} width="200px" />
+          <img alt={opponentStats.name} src={process.env.PUBLIC_URL + "/" + opponentStats.icon} width="200px" />
           <div className="text-white" style={{ paddingLeft: "4%" }}>
             <div className="font-bold">{opponentStats.name}</div>
             <div>

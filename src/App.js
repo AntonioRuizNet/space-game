@@ -21,10 +21,13 @@ function App() {
   return (
     <div
       className={userConfig.mode !== "exploring" ? "background-image" : ""}
-      style={{ backgroundImage: "url(" + userConfig.ubication.background + ")" }}
+      style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + userConfig.ubication.background + ")" }}
     >
       {userConfig.mode === "exploreWorld" && (
-        <div className={"background-image slowZoom-animation"} style={{ backgroundImage: "url(" + userConfig.ubication.background + ")" }}></div>
+        <div
+          className={"background-image slowZoom-animation"}
+          style={{ backgroundImage: "url(" + process.env.PUBLIC_URL + "/" + userConfig.ubication.background + ")" }}
+        ></div>
       )}
       <Panel content={<Chat />} width={"350px"} height={"130px"} top={"auto"} bottom={"190px"} left={"0"} right={"auto"} />
       <ActionsShip />
