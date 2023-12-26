@@ -6,6 +6,7 @@
     <img src="https://antonioruiz.net/apps/space-game/images/preview.jpg" alt="Preview">
 </div>
 
+<br />
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
