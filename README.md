@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://antonioruiz.net/apps/space-game/images/preview.jpg" alt="Logo" width="80" height="80">
+    <img src="https://antonioruiz.net/apps/space-game/images/preview.jpg" alt="Preview">
 </div>
 
 <!-- TABLE OF CONTENTS -->
